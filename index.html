@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Picture of the Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NASA Picture of the Day</h1>
+
+    <label for="dateInput">Select Date:</label>
+    <input type="date" id="dateInput">
+    <button onclick="getAPOD()">Get Media</button>
+
+    <div id="apodContent">
+        <p id="apodDate"></p>
+        <img id="apodImage" alt="NASA Picture of the Day">
+        <p id="apodDescription"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
